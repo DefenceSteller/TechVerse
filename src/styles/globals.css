@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  overflow-x: hidden; /* Prevent horizontal scroll */
+  width: 100vw; /* Ensure full width */
+}
+
+
+@font-face {
+  font-family: "Khadash-eng";
+  src: url("/fonts/Khadash_ENG.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Khadash-urdu";
+  src: url("/fonts/khadash-arabic-demo.arabic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Kufi";
+  src: url("/fonts/Reem Kufi.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nuixyber";
+  src: url("/fonts/NuixyberPro.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: "Stellen";
+    src: url("/fonts/Stellen.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
