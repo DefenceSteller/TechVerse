@@ -124,15 +124,6 @@ function Footer() {
       <div className="text-center mt-10 border-t border-gray-700 pt-4 text-gray-400 dark:text-gray-800 font-bold">
         Copyright © 2025 All Rights Reserved
       </div>
-      <div className="text-center mt-5 text-gray-400 dark:text-gray-800 font-bold text-xl">
-        Developed & Designed by{" "}
-        <Link
-          href="https://www.linkedin.com/in/ahsan-hafeez-116943278/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-xl"
-        >        Ahsan Hafeez</Link>{" "}
-      </div>
     </footer>
   );
 }
